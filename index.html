@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Survey!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Main content -->
+<h1>Welcome to my survey!</h1>
+<form action="index.php" name="my survey" method="POST">
+<div>
+	First name: <input type="text" name="firstname"><br>
+	Last name: <input type="text" name="lastname"><br>
+</div>
+<div>
+	Are you:<br>
+	<input type="radio" name="sex" value="male">Male<br>
+	<input type="radio" name="sex" value="female">Female<br>
+	<input type="radio" name="sex" value="other">Other<br>
+</div>
+<div>
+	<br>
+	From 1 to 5, how great is this website in regards to UI?<br>
+	<select name="rating">
+	<option value="1" selected="selected">1</option>
+	<option value="2" >2</option>
+	<option value="3" >3</option>
+	<option value="4" >4</option>
+	<option value="5" >5</option>
+	</select>
+</div>
+<div>
+	<br>
+	<br>What do you like most about this survey:<br>
+	<input type="checkbox" name="Colours" value="Colours">Colours<br>
+	<input type="checkbox" name="Questions" value="Questions">Questions<br>
+	<input type="checkbox" name="Open-Mindness" value="Open-Mindness">Open-Mindness<br>
+	<input type="checkbox" name="Styling" value="Styling">The Styling<br>
+</div>
+<div>
+	<br>Do you feel like this assignment was too basic?<br>
+	<input type="radio" name="agreeness" value="strong-disagree">Strongly Disagree<br>
+	<input type="radio" name="agreeness" value="disagree">Disagree<br>
+	<input type="radio" name="agreeness" value="neutral">Neutral<br>
+	<input type="radio" name="agreeness" value="agree">Agree<br>
+	<input type="radio" name="agreeness" value="strong-agree">Strongly Agree<br>
+</div>
+<div>
+	<br>Any comments you would like to leave as feedback?<br>
+	<textarea rows="10" cols="60"></textarea><br>
+</div>
+<br><br>
+	<input type="submit" value="Submit The Survey"/>
+
+
+</form>
+
+
+
+</body>
+<footer>
+	<!-- Sign and date the page, it's only polite! -->
+	<address>Website Designed By Carlos Hernandez<br>
+	Student Number: 300007037</address>
+</footer>
+</html>
